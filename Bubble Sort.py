@@ -6,5 +6,10 @@ def bubbleSort(arr):
             print("j",j)
             print("j+1", j+1)
             print(arr)
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                print(arr)
+
+
 
 

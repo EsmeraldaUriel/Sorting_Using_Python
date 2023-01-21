@@ -4,4 +4,5 @@ def mergeSort(myList):
         left = myList[:mid]
         right = myList[mid:]
         print("left: ", left, "right: ", right)
-
+        mergeSort(left)
+        mergeSort(right)

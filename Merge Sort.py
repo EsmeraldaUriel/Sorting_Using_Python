@@ -6,3 +6,10 @@ def mergeSort(myList):
         print("left: ", left, "right: ", right)
         mergeSort(left)
         mergeSort(right)
+
+        i = 0
+        j = 0
+
+        k = 0
+
+

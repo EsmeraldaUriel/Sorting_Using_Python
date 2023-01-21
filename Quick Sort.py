@@ -12,7 +12,16 @@ def partition(arr, left, right):
     pivot = arr[right]
     print("Pivot: ", pivot)
 
-
+    while i < j:
+        while i < right and arr[i] < pivot:
+            i += 1
+            print("i", i, "arr[i]", arr[i])
+        while j > left and arr[j] >= pivot:
+            j -= 1
+            print("j", j, "arr[j]", arr[j])
+        if i < j:
+            arr[i], arr[j] = arr[j], arr[i]
+            print(arr)
 
 
 

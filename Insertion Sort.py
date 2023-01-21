@@ -6,3 +6,7 @@ def InsertionSort(array):
             b -= 1
             print(array)
 
+
+array = [42, 82, 72, 65, 57, 60, 63, 80, 5, 1]
+print(array)
+InsertionSort(array)

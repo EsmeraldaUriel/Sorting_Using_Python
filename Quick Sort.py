@@ -29,4 +29,6 @@ def partition(arr, left, right):
     return i
 
 
-
+data = [42, 82, 72, 65, 57, 60, 63, 80, 5, 1]
+print(data)
+quickSort(data, 0, len(data) - 1)

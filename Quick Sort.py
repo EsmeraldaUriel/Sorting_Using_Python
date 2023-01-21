@@ -23,5 +23,10 @@ def partition(arr, left, right):
             arr[i], arr[j] = arr[j], arr[i]
             print(arr)
 
+    if arr[i] > pivot:
+        arr[i], arr[right] = arr[right], arr[i]
+        print(arr)
+    return i
+
 
 

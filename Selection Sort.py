@@ -5,3 +5,10 @@ def sort(nums):
         for j in range (i,10):
             if nums[j] < nums[minpos]:
                 minpos = j
+
+        temp = nums[i]
+        nums[i] = nums[minpos]
+        nums[minpos] = temp
+
+        print(nums)
+

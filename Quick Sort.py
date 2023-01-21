@@ -6,6 +6,12 @@ def quickSort(array, left, right):
         quickSort(array, pi + 1, right)
 
 
+def partition(arr, left, right):
+    i = left
+    j = right - 1
+    pivot = arr[right]
+    print("Pivot: ", pivot)
+
 
 
 

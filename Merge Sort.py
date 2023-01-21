@@ -30,3 +30,7 @@ def mergeSort(myList):
             j += 1
             k += 1
         print(myList)
+
+
+myList = [42, 82, 72, 65, 57, 60, 63, 80, 5, 1]
+mergeSort(myList)
